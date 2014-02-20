@@ -18,5 +18,5 @@ define({ // Wire spec
 		insert: { last: 'root' }
 	},
 
-	plugins: ['wire/dom', 'wire/dom/render', 'wire/on']
+	$plugins: ['wire/dom', 'wire/dom/render', 'wire/on']
 });
