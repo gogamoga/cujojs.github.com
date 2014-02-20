@@ -1,5 +1,6 @@
 define({ // Wire spec
 
+	// Default value for root for running hello app in standalone mode
 	root: { $ref: 'first!body' },
 
 	controller: {
