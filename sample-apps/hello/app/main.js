@@ -1,5 +1,7 @@
 define({ // Wire spec
 
+	root: { $ref: 'first!body' },
+
 	controller: {
 		create: 'hello/app/controller',
 		properties: {
@@ -16,5 +18,5 @@ define({ // Wire spec
 		insert: { last: 'root' }
 	},
 
-	$plugins: ['wire/dom', 'wire/dom/render', 'wire/on']
+	plugins: ['wire/dom', 'wire/dom/render', 'wire/on']
 });
